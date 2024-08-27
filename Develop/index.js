@@ -3,48 +3,56 @@ const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
 const inquirer = require('inquirer');
 
+
 // TODO: Create an array of questions for user input
 const questions = [
     {
         type: 'input',
-        name: 'Title',
+        name: 'title',
         message: 'What is your project title?'
     },
     {
         type: 'input',
-        name: 'Motivation',
-        message: 'What was your motivation?'
+        name: 'description',
+        message: 'Provide a short description explaining the project.'
     },
     {
         type: 'input',
-        name: 'Build',
-        message: 'Why did you build this project?'
+        name: 'usage',
+        message: 'Provide instructions and examples for use.'
+    },
+    {
+        type: 'list',
+        name: 'license',
+        message: 'Choose a license.',
+        choices: ['GNU AGPLv3', 'GNU APLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense', 'None']
     },
     {
         type: 'input',
-        name: 'Problem',
-        message: 'What problem does it solve?'
-    },
-    {
-        type: 'input',
-        name: 'Lesson',
-        message: 'What did you learn?'
-    },
-    {
-        type: 'input',
-        name: 'Stand Out',
-        message: 'What makes your project stand out?'
-    },
-    {
-        type: 'input',
-        name: 'Table of Contents (Optional)',
-        message: 'If your README is long, add a table of contents?'
-    },
-    {
-        type: 'input',
-        name: 'Installation',
+        name: 'installation',
         message: 'What are the steps required to install your project'
+    },
+    {
+        type: 'input',
+        name: 'installation',
+        message: 'What are the steps required to install your project'
+    },
+    {
+        type: 'input',
+        name: 'contribution',
+        message: 'If you created an application or package and would like other developers to contribute it, you can include guidlines for how to do so.'
+    },
+    {
+        type: 'input',
+        name: 'test',
+        message: 'Go the extra mile and write tests for your application. Then provide examples on how to run them here.'
+    },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'What is your GitHub username?'
     }
+
 ];
 
 // TODO: Create a function to write README file
