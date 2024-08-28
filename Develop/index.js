@@ -25,7 +25,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Choose a license.',
-        choices: ['GNU AGPLv3', 'GNU APLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense', 'None']
+        choices: ['GNU AGPLv3', 'GNU FDLv1.3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense']
     },
     {
         type: 'input',
@@ -52,7 +52,6 @@ const questions = [
         name: 'github',
         message: 'What is your GitHub username?'
     }
-
 ];
 
 // TODO: Create a function to write README file

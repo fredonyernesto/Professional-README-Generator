@@ -1,7 +1,9 @@
-# Poop
+# poop
+
+  [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
           
 ## Description
-Poop
+poop
 
 ## Table of Contents (Optional)
 - [Installation](#installation)
@@ -12,19 +14,20 @@ Poop
 - [Questions](#questions)
           
 ## Installation 
-Poop
+poop
 
 ## Usage
-POop
+poop
 
 ## License
-GNU AGPLv3
+## License
+This project is licensed under the GNU AGPLv3. For more information, please visit (https://www.gnu.org/licenses/agpl-3.0).
 
 ## How to Contribute
-Poop
+poop
 
 ## Test
-Poop
+poop
 
 ## Questions
-[fredonyernesto](https://github.com/fredonyernesto)
+[poop](https://github.com/poop)
