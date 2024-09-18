@@ -1,9 +1,9 @@
-# poop
+# Professional README Generator
 
-  [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
           
 ## Description
-poop
+A command-line application that dynamically generates a professional README.md file based on user input. It utilizes the Inquirer package to prompt users for project details and creates a high-quality README with sections such as Description, Installation, Usage, License, Contributing, Tests, and Questions.
 
 ## Table of Contents (Optional)
 - [Installation](#installation)
@@ -14,20 +14,20 @@ poop
 - [Questions](#questions)
           
 ## Installation 
-poop
+Install dependencies using `npm install` as well as the latest version of inquirer.
 
 ## Usage
-poop
+Invoke the application using the command `node index.js`. Answer the prompts to generate a README.md file that includes the project title, description, installation steps, usage instructions, license information, contribution guidelines, test instructions, and contact details.
 
 ## License
 ## License
-This project is licensed under the GNU AGPLv3. For more information, please visit (https://www.gnu.org/licenses/agpl-3.0).
+This project is licensed under the MIT License. For more information, please visit (https://opensource.org/licenses/MIT).
 
 ## How to Contribute
-poop
+Contributions are welcome! Please fork the repository and submit a pull request with your changes.
 
 ## Test
-poop
+No tests are provided for this project, but you can write and run your own tests as needed.
 
 ## Questions
-[poop](https://github.com/poop)
+[fredonyernesto](https://github.com/fredonyernesto)
